@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Domine o Power BI em 30 Minutos</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#0B2B48',secondary:'#FFD600'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #f9f9f9;
+}
+.hero-bg {
+background-image: url('https://readdy.ai/api/search-image?query=Professional%20dashboard%20interface%20with%20Power%20BI%20elements%2C%20data%20visualization%20charts%20and%20graphs%20on%20a%20computer%20screen%20with%20a%20digital%20clock%20showing%2030%20minutes.%20The%20image%20has%20a%20dark%20blue%20gradient%20background%20on%20the%20left%20side%20that%20smoothly%20transitions%20to%20show%20the%20dashboard%20on%20the%20right%20side.%20Modern%2C%20corporate%20style%20with%20blue%20color%20scheme.&width=1200&height=600&seq=1234&orientation=landscape');
+background-size: cover;
+background-position: center;
+}
+.timer {
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+}
+.price-original {
+text-decoration: line-through;
+position: relative;
+}
+.price-original::after {
+content: "";
+position: absolute;
+top: 50%;
+left: 0;
+right: 0;
+height: 2px;
+background-color: #ff3b30;
+transform: rotate(-8deg);
+}
+</style>
+</head>
+<body id="top">
+<header class="bg-primary text-white py-4">
+<div class="container mx-auto px-4 flex justify-between items-center">
+<div class="font-['Pacifico'] text-2xl">powerbi</div>
+</div>
+</header>
+<section class="hero-bg relative">
+<div class="absolute inset-0 bg-primary bg-opacity-80"></div>
+<div class="container mx-auto px-4 py-20 relative z-10">
+<div class="max-w-3xl">
+<div class="bg-[#00B8F1] text-white inline-block px-4 py-2 rounded-full mb-4">
+<div class="timer flex items-center">
+<i class="ri-time-line ri-lg mr-2"></i>
+<span>APENAS 30 MINUTOS</span>
+</div>
+</div>
+<h1 class="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
+Domine o Power BI e Crie Seu Primeiro Painel Profissional
+</h1>
+<p class="text-xl md:text-2xl font-bold text-secondary mb-6">
+EM APENAS 30 MINUTOS!
+</p>
+<p class="text-white text-lg mb-8 max-w-2xl">
+Transforme dados complexos em decisões estratégicas - mesmo sem experiência prévia!
+</p>
+<div class="bg-white p-6 rounded-lg shadow-lg max-w-md">
+<p class="text-primary font-bold mb-2">OFERTA EXCLUSIVA</p>
+<div class="flex items-center mb-2">
+<span class="price-original text-gray-600 text-xl mr-3">R$ 29,90</span>
+<span class="text-primary text-3xl font-bold">R$ 14,90</span>
+</div>
+<p class="text-red-600 font-medium text-sm mb-4">POR TEMPO LIMITADO</p>
+<a href="https://pay.kiwify.com.br/ofLT5EE" data-readdy="true" class="w-full bg-secondary text-primary font-bold py-3 px-6 !rounded-button hover:bg-opacity-90 transition-all flex items-center justify-center whitespace-nowrap no-underline">
+<i class="ri-shopping-cart-line ri-lg mr-2"></i>
+GARANTIR MINHA VAGA AGORA
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-primary text-center mb-12">O Que Você Vai Aprender</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-4">
+<i class="ri-database-2-line ri-xl text-white"></i>
+</div>
+<h3 class="text-xl font-bold text-primary mb-3">Importação de Dados</h3>
+<p class="text-gray-700">Aprenda a importar dados de diferentes fontes como Excel, CSV e bancos de dados SQL de forma rápida e eficiente.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-4">
+<i class="ri-bar-chart-grouped-line ri-xl text-white"></i>
+</div>
+<h3 class="text-xl font-bold text-primary mb-3">Visualizações Poderosas</h3>
+<p class="text-gray-700">Domine a criação de gráficos, tabelas e indicadores visuais que transformam dados brutos em insights valiosos.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-4">
+<i class="ri-function-line ri-xl text-white"></i>
+</div>
+<h3 class="text-xl font-bold text-primary mb-3">Fórmulas DAX Básicas</h3>
+<p class="text-gray-700">Conheça as principais fórmulas DAX para criar cálculos personalizados e métricas de negócios essenciais.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-primary text-center mb-12">Por Que Escolher Este Curso</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-white p-6 rounded-lg shadow-sm flex">
+<div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+<i class="ri-time-line ri-lg text-primary"></i>
+</div>
+<div>
+<h3 class="text-xl font-bold text-primary mb-2">Metodologia Rápida</h3>
+<p class="text-gray-700">Nossa abordagem direta e prática permite que você crie seu primeiro dashboard em apenas 30 minutos, sem conteúdo desnecessário.</p>
+</div>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm flex">
+<div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+<i class="ri-user-line ri-lg text-primary"></i>
+</div>
+<div>
+<h3 class="text-xl font-bold text-primary mb-2">Para Iniciantes</h3>
+<p class="text-gray-700">Explicações claras e passo a passo, ideais para quem nunca teve contato com o Power BI ou análise de dados.</p>
+</div>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm flex">
+<div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+<i class="ri-briefcase-line ri-lg text-primary"></i>
+</div>
+<div>
+<h3 class="text-xl font-bold text-primary mb-2">Aplicação Prática</h3>
+<p class="text-gray-700">Você criará um dashboard completo que poderá adaptar para seus próprios dados e necessidades profissionais.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-primary text-white">
+<div class="container mx-auto px-4 text-center">
+<h2 class="text-3xl font-bold mb-8">Depoimentos de Alunos</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-white bg-opacity-10 p-6 rounded-lg">
+<div class="flex justify-center mb-4">
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+</div>
+<p class="mb-4 italic">"Incrível como consegui criar um dashboard profissional em tão pouco tempo! Meu chefe ficou impressionado com os resultados que apresentei."</p>
+<p class="font-bold">Ricardo Oliveira</p>
+<p class="text-sm text-gray-300">Analista Financeiro</p>
+</div>
+<div class="bg-white bg-opacity-10 p-6 rounded-lg">
+<div class="flex justify-center mb-4">
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+</div>
+<p class="mb-4 italic">"Nunca tinha usado o Power BI antes, mas com este curso consegui criar meu primeiro painel em menos de uma hora. Metodologia direta e eficiente!"</p>
+<p class="font-bold">Mariana Santos</p>
+<p class="text-sm text-gray-300">Coordenadora de Marketing</p>
+</div>
+<div class="bg-white bg-opacity-10 p-6 rounded-lg">
+<div class="flex justify-center mb-4">
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+<i class="ri-star-fill ri-lg text-secondary"></i>
+</div>
+<p class="mb-4 italic">"Melhor investimento que fiz para minha carreira. Em 30 minutos aprendi o que não consegui em semanas tentando tutoriais no YouTube."</p>
+<p class="font-bold">Carlos Eduardo Mendes</p>
+<p class="text-sm text-gray-300">Gerente de Operações</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4 text-center">
+<h2 class="text-3xl font-bold text-primary mb-4">Garanta Sue E-Book</h2>
+<p class="text-xl text-gray-700 mb-8">Oferta por tempo limitado - 50% de desconto!</p>
+<div class="max-w-md mx-auto bg-gray-50 p-8 rounded-lg shadow-md border border-gray-100">
+<div class="flex justify-center items-center mb-6">
+<span class="price-original text-gray-600 text-2xl mr-4">R$ 29,90</span>
+<span class="text-primary text-4xl font-bold">R$ 14,90</span>
+</div>
+<ul class="text-left mb-8">
+<li class="flex items-start mb-4">
+<div class="w-6 h-6 bg-secondary rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+<i class="ri-check-line text-primary"></i>
+</div>
+<span>Download Imediato</span>
+</li>
+<li class="flex items-start mb-4">
+<div class="w-6 h-6 bg-secondary rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+<i class="ri-check-line text-primary"></i>
+</div>
+<span>Linguagem simples e pratica</span>
+</li>
+<li class="flex items-start">
+<div class="w-6 h-6 bg-secondary rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+<i class="ri-check-line text-primary"></i>
+</div>
+<span>30 min de leitura e aplicação</span>
+</li>
+</ul>
+<a href="https://pay.kiwify.com.br/ofLT5EE" data-readdy="true" class="w-full bg-secondary text-primary font-bold py-4 px-6 !rounded-button hover:bg-opacity-90 transition-all text-lg flex items-center justify-center whitespace-nowrap no-underline">
+<i class="ri-secure-payment-line ri-lg mr-2"></i>
+COMPRAR AGORA
+</a>
+<div class="mt-4 flex justify-center space-x-3">
+<i class="ri-visa-fill ri-lg text-gray-600"></i>
+<i class="ri-mastercard-fill ri-lg text-gray-600"></i>
+<i class="ri-paypal-fill ri-lg text-gray-600"></i>
+<i class="ri-bank-card-fill ri-lg text-gray-600"></i>
+</div>
+<p class="text-sm text-gray-500 mt-4">Pagamento 100% seguro. Satisfação garantida ou seu dinheiro de volta em até 7 dias.</p>
+</div>
+</div>
+</section>
+<section class="py-12 bg-gray-50">
+<div class="container mx-auto px-4">
+<h2 class="text-3xl font-bold text-primary text-center mb-8">Perguntas Frequentes</h2>
+<div class="max-w-3xl mx-auto space-y-4">
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<h3 class="text-lg font-bold text-primary mb-2">Preciso ter experiência prévia com o Power BI?</h3>
+<p class="text-gray-700">Não, o curso foi desenvolvido para iniciantes absolutos. Explicamos tudo desde a instalação do software até a criação do dashboard final.</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<h3 class="text-lg font-bold text-primary mb-2">Realmente conseguirei criar um dashboard em 30 minutos?</h3>
+<p class="text-gray-700">Sim! Nossa metodologia foi testada com centenas de alunos. Seguindo o passo a passo, você terá seu primeiro dashboard funcional em meia hora.</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm">
+<h3 class="text-lg font-bold text-primary mb-2">Posso pedir reembolso se não gostar?</h3>
+<p class="text-gray-700">Sim, oferecemos garantia de satisfação de 7 dias. Se não ficar satisfeito, devolvemos 100% do seu investimento.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 bg-primary text-white">
+<div class="container mx-auto px-4 text-center">
+<h2 class="text-3xl font-bold mb-6">Não Perca Esta Oportunidade!</h2>
+<p class="text-xl mb-8 max-w-2xl mx-auto">Transforme-se em um especialista em Power BI e destaque-se no mercado de trabalho com habilidades de análise de dados que são cada vez mais valorizadas.</p>
+<a href="https://pay.kiwify.com.br/ofLT5EE" data-readdy="true" class="bg-secondary text-primary font-bold py-4 px-8 !rounded-button hover:bg-opacity-90 transition-all text-lg flex items-center justify-center mx-auto whitespace-nowrap no-underline">
+<i class="ri-rocket-line ri-lg mr-2"></i>
+COMEÇAR AGORA
+</a>
+<p class="mt-6 text-sm text-gray-300" id="data-validade">Oferta válida até </p>
+</div>
+</section>
+<footer class="bg-gray-900 text-white py-12">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+<div>
+<div class="font-['Pacifico'] text-2xl mb-4">powerbi</div>
+<p class="text-gray-400">Transformando dados em decisões estratégicas desde 2020.</p>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 mb-4 md:mb-0">© 2025 Power BI em 30 Minutos. Todos os direitos reservados.</p>
+
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+const inicioLink = document.getElementById('inicio-link');
+if (inicioLink) {
+inicioLink.addEventListener('click', function(e) {
+e.preventDefault();
+document.getElementById('top').scrollIntoView({behavior: 'smooth'});
+});
+}
+});
+document.addEventListener('DOMContentLoaded', function() {
+    // Função para obter o último dia do mês atual
+    function getUltimoDiaMes() {
+        const data = new Date();
+        const ano = data.getFullYear();
+        const mes = data.getMonth() + 1; // Janeiro é 0
+        
+        // O dia 0 do próximo mês é o último dia do mês atual
+        const ultimoDia = new Date(ano, mes, 0).getDate();
+        
+        // Formata a data como DD/MM/AAAA
+        return `${ultimoDia.toString().padStart(2, '0')}/${mes.toString().padStart(2, '0')}/${ano}`;
+    }
+    
+    // Atualiza o elemento com a data
+    const elementoData = document.getElementById('data-validade');
+    if (elementoData) {
+        elementoData.textContent = `Oferta válida até ${getUltimoDiaMes()}`;
+    }
+});
+</script>
+</body>
+</html>
